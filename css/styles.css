@@ -1,0 +1,118 @@
+/*!____________________________________________________________________________________________________________
+BASE
+____________________________________________________________________________________________________________!*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*!____________________________________________________________________________________________________________
+GÉNÉRIQUE
+____________________________________________________________________________________________________________!*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E3E4E4 ;
+    font-family:"Dosis", serif;
+    font-size: 16px;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 43px;
+}
+
+
+
+h3{
+    font-size: 24px;
+}
+
+
+/*!____________________________________________________________________________________________________________
+COMPONENTS
+____________________________________________________________________________________________________________!*/
+
+/*!________header____________*/
+
+header{
+    background-color:white ;
+
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logoImage{
+    height: 87px;
+    width: 89;
+    
+}
+
+.logo{
+    display: flex;
+    gap:20px ;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content:flex-end ;
+    list-style: none;
+    gap: 30px;
+   
+
+}
+
+nav a{
+   text-decoration: none;
+   color: black;
+   text-align: center;
+    padding: 10px;
+   border-radius: 5px; 
+}
+
+nav a:hover{
+    background-color:#0E5EA1 ;
+    color:white;
+ 
+}
+
+/*!________bannière____________*/
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(../images/montagnesjpg.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+h2{
+    font-size: 36px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.hero p{
+    font-size: 20px;
+    color: #2FCB48;
+    margin-top :0;
+}
+.banniere{
+  
+}
